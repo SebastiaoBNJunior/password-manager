@@ -1,12 +1,13 @@
-import './App.css';
 import Form from './components/Form';
+import Title from './components/Title';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <h1>Gerenciador de senhas</h1>
+    <div>
+      <Title />
       <Form />
-    </>
+    </div>
   );
 }
 
